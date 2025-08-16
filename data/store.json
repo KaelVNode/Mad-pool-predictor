@@ -224,6 +224,18 @@
       "end_at": "2025-08-16T01:13:17.557Z",
       "duration_min": 6,
       "start_price": 4460.5,
+      "price_final": 4475.69,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "j7a5ybo0vr3z",
+      "pair": "OSMO",
+      "pool_id": "4",
+      "start_at": "2025-08-16T01:18:30.089Z",
+      "end_at": "2025-08-16T01:22:30.089Z",
+      "duration_min": 4,
+      "start_price": 0.175282,
       "price_final": null,
       "settled": false,
       "direction": null
@@ -299,7 +311,8 @@
       "round_id": "4s5w2vqdlchg",
       "player_id": "hwnd2x9bfffr",
       "direction": "UP",
-      "t": 1755306526255
+      "t": 1755306526255,
+      "points": 50
     }
   ],
   "events": [
@@ -872,6 +885,31 @@
       "type": "Direction",
       "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (4s5w2v)",
       "rid": "4s5w2vqdlchg",
+      "meta": null
+    },
+    {
+      "t": 1755307110061,
+      "type": "Settled",
+      "text": "Settled 4s5w2v • pair ETH • final $4475.6900 • went UP",
+      "rid": "4s5w2vqdlchg",
+      "meta": null
+    },
+    {
+      "t": 1755307110089,
+      "type": "Round",
+      "text": "New round j7a5yb • pair OSMO • duration 4m",
+      "rid": "j7a5ybo0vr3z",
+      "meta": {
+        "pair": "OSMO",
+        "pool_id": "4",
+        "duration_min": 4
+      }
+    },
+    {
+      "t": 1755307110089,
+      "type": "Price",
+      "text": "Start price $0.1753 (pair OSMO / pool #4)",
+      "rid": "j7a5ybo0vr3z",
       "meta": null
     }
   ],
