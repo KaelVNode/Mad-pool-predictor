@@ -4,30 +4,31 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Timer, Trophy, FlaskConical, ArrowUp, ArrowDown, ExternalLink, Wallet } from "lucide-react";
 import EventPanel from "@/components/EventPanel";
 import { OSMOSIS_TESTNET, BET_MIN_UOSMO, BET_MAX_UOSMO } from "@/lib/config";
+import FaucetButton from "@/components/FaucetButton";
 
 /* ========= Badges ========= */
 function MSBadge() {
   return (
     <div className="flex flex-wrap items-center gap-2">
       <a href="https://www.madscientists.io/" target="_blank" rel="noopener noreferrer"
-         className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Mad Scientists">
+        className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Mad Scientists">
         <FlaskConical size={14} />
         <span>Mad Scientists</span>
         <ExternalLink size={12} className="opacity-70" />
       </a>
       <a href="https://x.com/madscientists_x" target="_blank" rel="noopener noreferrer"
-         className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Follow @madscientists_x">
+        className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Follow @madscientists_x">
         <svg aria-hidden="true" viewBox="0 0 24 24" className="h-3.5 w-3.5">
           <path fill="currentColor" d="M18.244 2H21.5l-7.5 8.57L23.5 22h-7.372l-5.77-6.897L3.5 22H.244l8.214-9.385L.5 2h7.372l5.208 6.224L18.244 2Zm-1.29 18h2.02L7.62 4H5.5l11.454 16Z" />
         </svg>
         <span>@madscientists_x</span>
       </a>
       <a href="https://x.com/madscientists_x/status/1954975519243468808" target="_blank" rel="noopener noreferrer"
-         className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Theme: Open Build, Everything is an Experiment">
+        className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Theme: Open Build, Everything is an Experiment">
         🧪 Theme: Open Build
       </a>
       <a href="https://www.madscientists.io/maduniversity" target="_blank" rel="noopener noreferrer"
-         className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Discord /signup instructions">
+        className="inline-flex items-center gap-2 rounded-full border-2 px-3 py-1 text-xs transition accent-chip" title="Discord /signup instructions">
         💬 Discord: /signup
       </a>
     </div>
@@ -57,13 +58,13 @@ function Countdown({ to, startAt, onZero }) {
   const left = Math.max(0, toMs - now);
   const total = startMs ? (toMs - startMs) : 60 * 60 * 1000;
   const progress = startMs ? Math.min(1, Math.max(0, (now - startMs) / Math.max(total, 1)))
-                           : Math.min(1, Math.max(0, 1 - left / Math.max(total, 1)));
+    : Math.min(1, Math.max(0, 1 - left / Math.max(total, 1)));
   useEffect(() => { if (left <= 0) onZero?.(); }, [left, onZero]);
   const colorClass = progress < 0.66 ? "bg-green-500" : progress < 0.9 ? "bg-yellow-500" : "bg-red-500";
   const fmt = (ms) => {
     const s = Math.floor(ms / 1000), m = Math.floor(s / 60), ss = s % 60, hh = Math.floor(m / 60), mm = m % 60;
-    return hh > 0 ? `${String(hh).padStart(2,"0")}:${String(mm).padStart(2,"0")}:${String(ss).padStart(2,"0")}`
-                  : `${String(mm).padStart(2,"0")}:${String(ss).padStart(2,"0")}`;
+    return hh > 0 ? `${String(hh).padStart(2, "0")}:${String(mm).padStart(2, "0")}:${String(ss).padStart(2, "0")}`
+      : `${String(mm).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
   };
   return (
     <div className="w-full">
@@ -100,11 +101,11 @@ function PriceSourceBadge({ snap, small = false }) {
   const src = snap?.source, fallback = !!snap?.fallback, stale = !!snap?.stale;
   let text = "Base";
   let cls = `px-2 ${small ? "py-[1px] text-[10px]" : "py-0.5 text-xs"} rounded-full border-2`;
-  if (src === "imperator")      { text = "Live";      cls += " bg-emerald-500/15 text-emerald-300 border-emerald-500/30"; }
-  else if (src === "binance")   { text = "Binance";   cls += " bg-cyan-500/15 text-cyan-300 border-cyan-500/30"; }
+  if (src === "imperator") { text = "Live"; cls += " bg-emerald-500/15 text-emerald-300 border-emerald-500/30"; }
+  else if (src === "binance") { text = "Binance"; cls += " bg-cyan-500/15 text-cyan-300 border-cyan-500/30"; }
   else if (src === "coingecko") { text = "CoinGecko"; cls += " bg-amber-500/15 text-amber-300 border-amber-500/30"; }
-  else if (src === "stale")     { text = "Stale";     cls += " bg-zinc-500/15 text-zinc-300 border-zinc-500/30"; }
-  else                          { text = "Base";      cls += " bg-rose-500/15 text-rose-300 border-rose-500/30"; }
+  else if (src === "stale") { text = "Stale"; cls += " bg-zinc-500/15 text-zinc-300 border-zinc-500/30"; }
+  else { text = "Base"; cls += " bg-rose-500/15 text-rose-300 border-rose-500/30"; }
   const tips = [src ? `source: ${src}` : null, fallback ? "fallback" : null, stale ? "cached (≤10m)" : null].filter(Boolean).join(" • ");
   return <span className={cls} title={tips || undefined}>{text}</span>;
 }
@@ -185,7 +186,7 @@ function LeaderboardCard({ rows = [] }) {
               <tr key={`${b.player}-${i}`} className={`border-t accent-hr hover:bg-emerald-400/10 transition-colors ${rowTone(i)}`}>
                 <td className="py-2 px-3 tabular-nums font-medium">{i + 1} {medal(i)}</td>
                 <td className="py-2 px-3">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 ml-auto">
                     <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500/30 to-emerald-300/20 ring-1 ring-emerald-400/40 text-[11px] font-semibold" title={b.player}>
                       {(b.player || "A").slice(0, 1).toUpperCase()}
                     </span>
@@ -252,7 +253,7 @@ export default function HomeClient() {
       try {
         const r = await fetch("/api/treasury", { cache: "no-store" }).then(x => x.json());
         if (r?.address) setTreasuryAddr(r.address);
-      } catch {}
+      } catch { }
     })();
   }, []);
 
@@ -325,7 +326,7 @@ export default function HomeClient() {
       if (!isKeplrReady) { setMsg("Keplr not found"); return; }
       const chainId = OSMOSIS_TESTNET.chainId;
       if (window.keplr.experimentalSuggestChain && OSMOSIS_TESTNET.suggest) {
-        try { await window.keplr.experimentalSuggestChain(OSMOSIS_TESTNET.suggest); } catch {}
+        try { await window.keplr.experimentalSuggestChain(OSMOSIS_TESTNET.suggest); } catch { }
       }
       await window.keplr.enable(chainId);
       const offlineSigner = await window.getOfflineSignerAuto(chainId);
@@ -385,7 +386,7 @@ export default function HomeClient() {
       if (!attach.ok) throw new Error(aj.error || "Attach failed");
 
       setBetTicket(aj.ticket || { txhash, stake_uosmo: uosmo });
-      setMsg(`Bet attached: ${(aj.ticket?.stake_uosmo ?? uosmo)} uosmo • tx ${String(txhash).slice(0,10)}…`);
+      setMsg(`Bet attached: ${(aj.ticket?.stake_uosmo ?? uosmo)} uosmo • tx ${String(txhash).slice(0, 10)}…`);
     } catch (e) {
       setMsg(e?.message || "Payment failed");
     } finally {
@@ -449,24 +450,53 @@ export default function HomeClient() {
         {/* Left */}
         <section className="lg:col-span-2 space-y-6">
           {/* Header */}
+        </section>
+        <div className="lg:col-span-3">
           <header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="flex items-center gap-3">
               <h1 className="text-2xl font-bold flex items-center gap-2 neon-text"><FlaskConical size={24} /> Mad Pool Predictor</h1>
               <a className="inline-flex items-center rounded-lg border-2 accent-border px-3 py-1 text-sm accent-hover"
-                 href="https://github.com/KaelVNode/Mad-pool-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
+                href="https://github.com/KaelVNode/Mad-pool-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ml-auto">
+              {/* Chip wallet (ukuran disamakan dengan tombol) */}
+              {connected && name?.startsWith("osmo") && (
+                <span
+                  className="inline-flex items-center gap-1 rounded-lg border-2 accent-border px-3 py-1.5 text-sm"
+                  title={name}
+                >
+                  {`${name.slice(0, 8)}…${name.slice(-4)}`}
+                </span>
+              )}
+
+              {/* Faucet: ukuran persis sama dengan tombol Connect */}
+              {connected && (
+                <FaucetButton
+                  address={name}
+                  className="inline-flex items-center gap-1 rounded-lg border-2 accent-border px-3 py-1.5 text-sm accent-hover"
+                />
+              )}
+
+              {/* Tombol Connect / Install (ukuran acuan) */}
               <button
+                type="button"
                 className="inline-flex items-center gap-1 rounded-lg border-2 accent-border px-3 py-1.5 text-sm accent-hover"
                 onClick={connectKeplr}
                 title="Connect Keplr (Osmosis Testnet)"
               >
-                <Wallet size={16} /> {connected && name?.startsWith("osmo") ? `${name.slice(0,8)}…${name.slice(-4)}` : (isKeplrReady ? "Connect Keplr" : "Install Keplr")}
+                <Wallet size={16} />
+                {connected && name?.startsWith("osmo")
+                  ? "Connected"
+                  : (isKeplrReady ? "Connect Keplr" : "Install Keplr")}
               </button>
             </div>
           </header>
-
+        </div>
+        <div className="lg:col-span-3">
           <MSBadge />
+        </div>
+
+        <section className="lg:col-span-2 space-y-6">
 
           {/* Snapshot */}
           <section className="rounded-2xl border-2 accent-border bg-[var(--ms-card)] neon-glow p-4">
@@ -536,7 +566,7 @@ export default function HomeClient() {
                 )}
               </div>
               <p className="text-[11px] opacity-60 mt-1">
-                Min: {BET_MIN_UOSMO} uosmo • Max: {BET_MAX_UOSMO} uosmo • Treasury: {treasuryAddr ? `${treasuryAddr.slice(0,8)}…${treasuryAddr.slice(-4)}` : "—"}
+                Min: {BET_MIN_UOSMO} uosmo • Max: {BET_MAX_UOSMO} uosmo • Treasury: {treasuryAddr ? `${treasuryAddr.slice(0, 8)}…${treasuryAddr.slice(-4)}` : "—"}
               </p>
             </div>
 
@@ -620,7 +650,7 @@ export default function HomeClient() {
 
         {/* Right: Event Log */}
         <aside className="lg:col-span-1">
-          <EventPanel snap={snap} limit={10} />
+          <EventPanel snap={snap} limit={11} />
         </aside>
       </main>
     </>
