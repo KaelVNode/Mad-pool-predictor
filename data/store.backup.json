@@ -1,0 +1,694 @@
+{
+  "rounds": [
+    {
+      "id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:22:15.754Z",
+      "end_at": "2025-08-13T13:24:15.754Z",
+      "start_price": 1,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "a11436a2-d3ae-49d7-b575-7e110029a75d",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:24:17.444Z",
+      "end_at": "2025-08-13T13:26:17.444Z",
+      "start_price": 0.99,
+      "price_final": 0.98,
+      "settled": true
+    },
+    {
+      "id": "50787eaf-9a20-4346-99b5-7f8657188b86",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:26:19.539Z",
+      "end_at": "2025-08-13T13:28:19.539Z",
+      "start_price": 0.98,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "c115b63c-ee67-4bb6-97d5-c66bb859d247",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:28:21.684Z",
+      "end_at": "2025-08-13T13:30:21.684Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "5dab8392-0747-4ae3-8b59-c3f6e7743368",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:30:22.373Z",
+      "end_at": "2025-08-13T13:32:22.373Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "75ca14ad-5112-4a38-b4f9-b8612be9be48",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:32:24.498Z",
+      "end_at": "2025-08-13T13:34:24.498Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "9319637d-d4f8-4149-aebc-abff22c83335",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:34:26.619Z",
+      "end_at": "2025-08-13T13:36:26.619Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "8aa9a5f7-5661-4c7f-a34f-5adb307c99f5",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:36:27.210Z",
+      "end_at": "2025-08-13T13:38:27.210Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "0c3cb084-34c1-4242-8103-10bf086d21c5",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:38:29.304Z",
+      "end_at": "2025-08-13T13:40:29.304Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "8f2cca06-59a8-4d38-9d58-cdb3876c1793",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:40:31.868Z",
+      "end_at": "2025-08-13T13:42:31.868Z",
+      "start_price": 0.99,
+      "price_final": 0.98,
+      "settled": true
+    },
+    {
+      "id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:42:32.555Z",
+      "end_at": "2025-08-13T13:44:32.555Z",
+      "start_price": 0.98,
+      "price_final": 0.98,
+      "settled": true
+    },
+    {
+      "id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:47:11.639Z",
+      "end_at": "2025-08-13T13:49:11.639Z",
+      "start_price": 0.98,
+      "price_final": 0.97,
+      "settled": true
+    },
+    {
+      "id": "51a380c2-02cf-44a8-b8f1-09cd6e52c7b1",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:49:12.713Z",
+      "end_at": "2025-08-13T13:51:12.713Z",
+      "start_price": 0.98,
+      "price_final": 0.97,
+      "settled": true
+    },
+    {
+      "id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:51:12.906Z",
+      "end_at": "2025-08-13T13:53:12.906Z",
+      "start_price": 0.98,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "80c1dac6-8041-4e3e-b625-dc239bef9536",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:53:15.802Z",
+      "end_at": "2025-08-13T13:55:15.802Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:55:18.573Z",
+      "end_at": "2025-08-13T13:57:18.573Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:57:19.332Z",
+      "end_at": "2025-08-13T13:59:19.332Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "pool_id": "1",
+      "start_at": "2025-08-13T13:59:19.820Z",
+      "end_at": "2025-08-13T14:01:19.820Z",
+      "start_price": 0.99,
+      "price_final": 0.99,
+      "settled": true
+    },
+    {
+      "id": "62528339-30f6-4d65-80dc-aac4fc01432a",
+      "pool_id": "1",
+      "start_at": "2025-08-13T14:01:20.586Z",
+      "end_at": "2025-08-13T14:03:20.586Z",
+      "start_price": 0.99,
+      "price_final": 0.98,
+      "settled": true
+    },
+    {
+      "id": "34f7ec08-8c25-4496-a8cd-90120b4245dc",
+      "pool_id": "1",
+      "start_at": "2025-08-13T14:03:23.665Z",
+      "end_at": "2025-08-13T14:05:23.665Z",
+      "start_price": 0.98,
+      "price_final": null,
+      "settled": false
+    }
+  ],
+  "predictions": [],
+  "predictions_dir": [
+    {
+      "id": "deac66b5-6000-4f80-a641-86961dd86ebe",
+      "round_id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    },
+    {
+      "id": "b9d37368-7b4e-4bb1-849c-ccbd0e39f23b",
+      "round_id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    },
+    {
+      "id": "8241687e-a814-4d1f-bc1f-c97b8bdca7c2",
+      "round_id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "player_id": "f8485422-afe4-4b2d-be35-167b453f3645",
+      "direction": "UP"
+    },
+    {
+      "id": "4a682e33-c961-42ef-bc47-82d3c6fd6a5a",
+      "round_id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    },
+    {
+      "id": "449dcff0-7cf3-4504-8026-55d88262f08f",
+      "round_id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    },
+    {
+      "id": "0e9dc45a-007c-4fd1-a284-b657fc598a00",
+      "round_id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    },
+    {
+      "id": "91846015-909f-4982-b9c0-291cb976090e",
+      "round_id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "player_id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "direction": "UP"
+    }
+  ],
+  "players": [
+    {
+      "id": "ee4d50b4-f9cb-4c1a-a567-b09139a4bbce",
+      "username": "anon"
+    },
+    {
+      "id": "f8485422-afe4-4b2d-be35-167b453f3645",
+      "username": "Saandysaandy"
+    }
+  ],
+  "scores": [],
+  "ratelimits": [],
+  "events": [
+    {
+      "at": "2025-08-13T13:22:15.754Z",
+      "type": "round_new",
+      "round_id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:22:15.755Z",
+      "type": "round_started",
+      "round_id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "start_price": 1
+    },
+    {
+      "at": "2025-08-13T13:22:24.167Z",
+      "type": "player_new",
+      "by": "anon"
+    },
+    {
+      "at": "2025-08-13T13:22:24.168Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:24:16.009Z",
+      "type": "settled",
+      "round_id": "0d27d2a2-a256-4d2c-92b0-919f81d71102",
+      "price_final": 0.99,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:24:17.444Z",
+      "type": "round_new",
+      "round_id": "a11436a2-d3ae-49d7-b575-7e110029a75d",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:24:17.445Z",
+      "type": "round_started",
+      "round_id": "a11436a2-d3ae-49d7-b575-7e110029a75d",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:26:17.627Z",
+      "type": "settled",
+      "round_id": "a11436a2-d3ae-49d7-b575-7e110029a75d",
+      "price_final": 0.98,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:26:19.539Z",
+      "type": "round_new",
+      "round_id": "50787eaf-9a20-4346-99b5-7f8657188b86",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:26:19.539Z",
+      "type": "round_started",
+      "round_id": "50787eaf-9a20-4346-99b5-7f8657188b86",
+      "start_price": 0.98
+    },
+    {
+      "at": "2025-08-13T13:28:19.751Z",
+      "type": "settled",
+      "round_id": "50787eaf-9a20-4346-99b5-7f8657188b86",
+      "price_final": 0.99,
+      "direction": "UP",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:28:21.684Z",
+      "type": "round_new",
+      "round_id": "c115b63c-ee67-4bb6-97d5-c66bb859d247",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:28:21.684Z",
+      "type": "round_started",
+      "round_id": "c115b63c-ee67-4bb6-97d5-c66bb859d247",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:30:21.891Z",
+      "type": "settled",
+      "round_id": "c115b63c-ee67-4bb6-97d5-c66bb859d247",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:30:22.373Z",
+      "type": "round_new",
+      "round_id": "5dab8392-0747-4ae3-8b59-c3f6e7743368",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:30:22.374Z",
+      "type": "round_started",
+      "round_id": "5dab8392-0747-4ae3-8b59-c3f6e7743368",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:32:22.566Z",
+      "type": "settled",
+      "round_id": "5dab8392-0747-4ae3-8b59-c3f6e7743368",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:32:24.498Z",
+      "type": "round_new",
+      "round_id": "75ca14ad-5112-4a38-b4f9-b8612be9be48",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:32:24.498Z",
+      "type": "round_started",
+      "round_id": "75ca14ad-5112-4a38-b4f9-b8612be9be48",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:34:24.676Z",
+      "type": "settled",
+      "round_id": "75ca14ad-5112-4a38-b4f9-b8612be9be48",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:34:26.619Z",
+      "type": "round_new",
+      "round_id": "9319637d-d4f8-4149-aebc-abff22c83335",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:34:26.621Z",
+      "type": "round_started",
+      "round_id": "9319637d-d4f8-4149-aebc-abff22c83335",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:36:26.807Z",
+      "type": "settled",
+      "round_id": "9319637d-d4f8-4149-aebc-abff22c83335",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:36:27.210Z",
+      "type": "round_new",
+      "round_id": "8aa9a5f7-5661-4c7f-a34f-5adb307c99f5",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:36:27.211Z",
+      "type": "round_started",
+      "round_id": "8aa9a5f7-5661-4c7f-a34f-5adb307c99f5",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:38:27.386Z",
+      "type": "settled",
+      "round_id": "8aa9a5f7-5661-4c7f-a34f-5adb307c99f5",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:38:29.304Z",
+      "type": "round_new",
+      "round_id": "0c3cb084-34c1-4242-8103-10bf086d21c5",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:38:29.304Z",
+      "type": "round_started",
+      "round_id": "0c3cb084-34c1-4242-8103-10bf086d21c5",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:40:29.704Z",
+      "type": "settled",
+      "round_id": "0c3cb084-34c1-4242-8103-10bf086d21c5",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:40:31.868Z",
+      "type": "round_new",
+      "round_id": "8f2cca06-59a8-4d38-9d58-cdb3876c1793",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:40:31.870Z",
+      "type": "round_started",
+      "round_id": "8f2cca06-59a8-4d38-9d58-cdb3876c1793",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:42:32.116Z",
+      "type": "settled",
+      "round_id": "8f2cca06-59a8-4d38-9d58-cdb3876c1793",
+      "price_final": 0.98,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:42:32.555Z",
+      "type": "round_new",
+      "round_id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:42:32.556Z",
+      "type": "round_started",
+      "round_id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "start_price": 0.98
+    },
+    {
+      "at": "2025-08-13T13:42:36.395Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:47:09.423Z",
+      "type": "settled",
+      "round_id": "37ee0461-ff19-4281-8e18-5feee70969ba",
+      "price_final": 0.98,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:47:11.639Z",
+      "type": "round_new",
+      "round_id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:47:11.640Z",
+      "type": "round_started",
+      "round_id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "start_price": 0.98
+    },
+    {
+      "at": "2025-08-13T13:48:12.311Z",
+      "type": "player_new",
+      "by": "Saandysaandy"
+    },
+    {
+      "at": "2025-08-13T13:48:12.312Z",
+      "type": "pred_dir",
+      "by": "Saandysaandy",
+      "round_id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:49:12.712Z",
+      "type": "settled",
+      "round_id": "d7a4d08e-d5a5-45de-b549-ac0576b6da67",
+      "price_final": 0.97,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:49:12.713Z",
+      "type": "round_new",
+      "round_id": "51a380c2-02cf-44a8-b8f1-09cd6e52c7b1",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:49:12.714Z",
+      "type": "round_started",
+      "round_id": "51a380c2-02cf-44a8-b8f1-09cd6e52c7b1",
+      "start_price": 0.98
+    },
+    {
+      "at": "2025-08-13T13:51:12.906Z",
+      "type": "settled",
+      "round_id": "51a380c2-02cf-44a8-b8f1-09cd6e52c7b1",
+      "price_final": 0.97,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:51:12.906Z",
+      "type": "round_new",
+      "round_id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:51:12.907Z",
+      "type": "round_started",
+      "round_id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "start_price": 0.98
+    },
+    {
+      "at": "2025-08-13T13:52:07.168Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:53:13.904Z",
+      "type": "settled",
+      "round_id": "83eb952f-ea7a-4ee2-ac77-7fba5b8de845",
+      "price_final": 0.99,
+      "direction": "UP",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:53:15.802Z",
+      "type": "round_new",
+      "round_id": "80c1dac6-8041-4e3e-b625-dc239bef9536",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:53:15.803Z",
+      "type": "round_started",
+      "round_id": "80c1dac6-8041-4e3e-b625-dc239bef9536",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:55:16.657Z",
+      "type": "settled",
+      "round_id": "80c1dac6-8041-4e3e-b625-dc239bef9536",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:55:18.573Z",
+      "type": "round_new",
+      "round_id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:55:18.574Z",
+      "type": "round_started",
+      "round_id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:55:27.125Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:57:18.780Z",
+      "type": "settled",
+      "round_id": "bd6aa683-f20f-4f5c-adf9-492d53d867e1",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:57:19.332Z",
+      "type": "round_new",
+      "round_id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:57:19.333Z",
+      "type": "round_started",
+      "round_id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T13:57:34.318Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T13:59:19.696Z",
+      "type": "settled",
+      "round_id": "ee7e22d2-d534-4c91-9564-441eb9cbed9f",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T13:59:19.820Z",
+      "type": "round_new",
+      "round_id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T13:59:19.826Z",
+      "type": "round_started",
+      "round_id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T14:00:08.970Z",
+      "type": "pred_dir",
+      "by": "anon",
+      "round_id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "dir": "UP"
+    },
+    {
+      "at": "2025-08-13T14:01:20.585Z",
+      "type": "settled",
+      "round_id": "4ad3b318-edb6-4b1d-9093-db0c8c85a125",
+      "price_final": 0.99,
+      "direction": "FLAT",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T14:01:20.586Z",
+      "type": "round_new",
+      "round_id": "62528339-30f6-4d65-80dc-aac4fc01432a",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T14:01:20.587Z",
+      "type": "round_started",
+      "round_id": "62528339-30f6-4d65-80dc-aac4fc01432a",
+      "start_price": 0.99
+    },
+    {
+      "at": "2025-08-13T14:03:21.737Z",
+      "type": "settled",
+      "round_id": "62528339-30f6-4d65-80dc-aac4fc01432a",
+      "price_final": 0.98,
+      "direction": "DOWN",
+      "winner": null
+    },
+    {
+      "at": "2025-08-13T14:03:23.665Z",
+      "type": "round_new",
+      "round_id": "34f7ec08-8c25-4496-a8cd-90120b4245dc",
+      "duration_min": 2
+    },
+    {
+      "at": "2025-08-13T14:03:23.667Z",
+      "type": "round_started",
+      "round_id": "34f7ec08-8c25-4496-a8cd-90120b4245dc",
+      "start_price": 0.98
+    }
+  ]
+}

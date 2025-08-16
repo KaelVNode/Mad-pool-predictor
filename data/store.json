@@ -1,0 +1,925 @@
+{
+  "rounds": [
+    {
+      "id": "4yh346AyyBce",
+      "pool_id": "1",
+      "start_at": "2025-08-14T20:09:18.214Z",
+      "end_at": "2025-08-14T20:16:18.214Z",
+      "duration_min": 7,
+      "start_price": 4.516,
+      "price_final": 4.525,
+      "settled": true,
+      "direction": "UP",
+      "winner": null
+    },
+    {
+      "id": "ye9kg9y3spid",
+      "pair": "OSMO",
+      "pool_id": "4",
+      "start_at": "2025-08-15T19:47:44.363Z",
+      "end_at": "2025-08-15T19:51:44.363Z",
+      "duration_min": 4,
+      "start_price": 0.171539,
+      "price_final": 0.172406,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "q5d0zda6zjxz",
+      "pair": "ATOM",
+      "pool_id": "1",
+      "start_at": "2025-08-15T20:17:20.546Z",
+      "end_at": "2025-08-15T20:22:20.546Z",
+      "duration_min": 5,
+      "start_price": 4.402,
+      "price_final": 4.4,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "nsutttwkt3w6",
+      "pair": "ATOM",
+      "pool_id": "1",
+      "start_at": "2025-08-15T20:46:34.828Z",
+      "end_at": "2025-08-15T20:52:34.828Z",
+      "duration_min": 6,
+      "start_price": 4.401,
+      "price_final": 4.426,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "zkolzoiw693h",
+      "pair": "OSMO",
+      "pool_id": "4",
+      "start_at": "2025-08-15T21:05:50.832Z",
+      "end_at": "2025-08-15T21:07:50.832Z",
+      "duration_min": 2,
+      "start_price": 0.17318,
+      "price_final": 4.42,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "sq167ydf7ihe",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-15T21:07:51.241Z",
+      "end_at": "2025-08-15T21:09:51.241Z",
+      "duration_min": 2,
+      "start_price": 117211.48,
+      "price_final": 117190,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "hly2ptgltwvk",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-15T21:09:51.648Z",
+      "end_at": "2025-08-15T21:13:51.648Z",
+      "duration_min": 4,
+      "start_price": 117190,
+      "price_final": 117134.06,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "8vwi4ovnr4ky",
+      "pair": "ETH",
+      "pool_id": "3",
+      "start_at": "2025-08-15T21:14:00.180Z",
+      "end_at": "2025-08-15T21:19:00.180Z",
+      "duration_min": 5,
+      "start_price": 4407.19,
+      "price_final": 4411.38,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "obe35zebczl7",
+      "pair": "OSMO",
+      "pool_id": "4",
+      "start_at": "2025-08-15T21:35:29.676Z",
+      "end_at": "2025-08-15T21:41:29.676Z",
+      "duration_min": 6,
+      "start_price": 0.173207,
+      "price_final": 0.173224,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "tpwyq4ytzhqm",
+      "pair": "ETH",
+      "pool_id": "3",
+      "start_at": "2025-08-15T21:55:06.450Z",
+      "end_at": "2025-08-15T21:58:06.450Z",
+      "duration_min": 3,
+      "start_price": 4420,
+      "price_final": 4415.12,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "mk16lv6ign93",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-15T22:13:36.494Z",
+      "end_at": "2025-08-15T22:17:36.494Z",
+      "duration_min": 4,
+      "start_price": 117320.01,
+      "price_final": 117343.99,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "r23yxbidugdp",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-15T22:17:37.592Z",
+      "end_at": "2025-08-15T22:23:37.592Z",
+      "duration_min": 6,
+      "start_price": 117343.99,
+      "price_final": 117208,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "ff5yu6p021mk",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-15T23:40:40.033Z",
+      "end_at": "2025-08-15T23:48:40.033Z",
+      "duration_min": 8,
+      "start_price": 117208,
+      "price_final": 117204.63,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "nkr7wmwwc1ci",
+      "pair": "OSMO",
+      "pool_id": "4",
+      "start_at": "2025-08-15T23:52:19.750Z",
+      "end_at": "2025-08-16T00:01:19.750Z",
+      "duration_min": 9,
+      "start_price": 0.173832,
+      "price_final": 0.174264,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "t0oipun1fcit",
+      "pair": "ETH",
+      "pool_id": "3",
+      "start_at": "2025-08-16T00:19:04.304Z",
+      "end_at": "2025-08-16T00:25:04.304Z",
+      "duration_min": 6,
+      "start_price": 4448.38,
+      "price_final": 4460.67,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "0c6wmg7kpvdd",
+      "pair": "ETH",
+      "pool_id": "3",
+      "start_at": "2025-08-16T00:26:58.009Z",
+      "end_at": "2025-08-16T00:28:58.009Z",
+      "duration_min": 2,
+      "start_price": 4460.67,
+      "price_final": 4455.32,
+      "settled": true,
+      "direction": "DOWN"
+    },
+    {
+      "id": "cgdcnftsjyag",
+      "pair": "ATOM",
+      "pool_id": "1",
+      "start_at": "2025-08-16T00:28:58.709Z",
+      "end_at": "2025-08-16T00:30:58.709Z",
+      "duration_min": 2,
+      "start_price": 4.458,
+      "price_final": 4.458,
+      "settled": true,
+      "direction": "FLAT"
+    },
+    {
+      "id": "epw1o2wavy49",
+      "pair": "BTC",
+      "pool_id": "2",
+      "start_at": "2025-08-16T00:30:59.932Z",
+      "end_at": "2025-08-16T00:38:59.932Z",
+      "duration_min": 8,
+      "start_price": 117517.98,
+      "price_final": 117638.87,
+      "settled": true,
+      "direction": "UP"
+    },
+    {
+      "id": "4s5w2vqdlchg",
+      "pair": "ETH",
+      "pool_id": "3",
+      "start_at": "2025-08-16T01:07:17.557Z",
+      "end_at": "2025-08-16T01:13:17.557Z",
+      "duration_min": 6,
+      "start_price": 4460.5,
+      "price_final": null,
+      "settled": false,
+      "direction": null
+    }
+  ],
+  "bets": [
+    {
+      "id": "nbhh1jdmoyou",
+      "round_id": "ye9kg9y3spid",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash_deposit": "BA243EDC6A41DD0AC0A90D70EF884C330258F95E62300E6B7514BC78DED7F92B",
+      "status": "WON",
+      "payout_uosmo": 200000,
+      "payout_txhash": null,
+      "t": 1755287347313
+    }
+  ],
+  "meta": {},
+  "players": [
+    {
+      "id": "hwnd2x9bfffr",
+      "username": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "ip": "0.0.0.0",
+      "created_at": "2025-08-15T19:49:07.306Z"
+    }
+  ],
+  "predictions": [],
+  "predictions_dir": [
+    {
+      "id": "tetw4h2uqbqz",
+      "round_id": "ye9kg9y3spid",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "UP",
+      "t": 1755287356290,
+      "points": 100
+    },
+    {
+      "id": "kkqbhynvxvrd",
+      "round_id": "nkr7wmwwc1ci",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "UP",
+      "t": 1755302235449,
+      "points": 50
+    },
+    {
+      "id": "zfagoemmd8ox",
+      "round_id": "0c6wmg7kpvdd",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "UP",
+      "t": 1755304123310,
+      "points": 0
+    },
+    {
+      "id": "fgzzy2lk4191",
+      "round_id": "cgdcnftsjyag",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "UP",
+      "t": 1755304168976,
+      "points": 0
+    },
+    {
+      "id": "cgc5td9jznsd",
+      "round_id": "epw1o2wavy49",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "DOWN",
+      "t": 1755304304517,
+      "points": 0
+    },
+    {
+      "id": "ezuspareekwa",
+      "round_id": "4s5w2vqdlchg",
+      "player_id": "hwnd2x9bfffr",
+      "direction": "UP",
+      "t": 1755306526255
+    }
+  ],
+  "events": [
+    {
+      "t": 1755287264363,
+      "type": "Round",
+      "text": "New round ye9kg9 • pair OSMO • duration 4m",
+      "rid": "ye9kg9y3spid",
+      "meta": {
+        "pair": "OSMO",
+        "pool_id": "4",
+        "duration_min": 4
+      }
+    },
+    {
+      "t": 1755287264363,
+      "type": "Price",
+      "text": "Start price $0.1715 (pair OSMO / pool #4)",
+      "rid": "ye9kg9y3spid",
+      "meta": null
+    },
+    {
+      "t": 1755287347306,
+      "type": "Player",
+      "text": "New player \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\"",
+      "rid": null,
+      "meta": {
+        "username": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy"
+      }
+    },
+    {
+      "t": 1755287347313,
+      "type": "Bet",
+      "text": "Bet attached 100000 uosmo by osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "rid": "ye9kg9y3spid",
+      "meta": {
+        "player_id": "hwnd2x9bfffr",
+        "stake_uosmo": 100000,
+        "txhash": "BA243EDC6A41DD0AC0A90D70EF884C330258F95E62300E6B7514BC78DED7F92B"
+      }
+    },
+    {
+      "t": 1755287356290,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (ye9kg9)",
+      "rid": "ye9kg9y3spid",
+      "meta": null
+    },
+    {
+      "t": 1755289038391,
+      "type": "Settled",
+      "text": "Settled ye9kg9 • pair OSMO • final $0.1724 • went UP",
+      "rid": "ye9kg9y3spid",
+      "meta": null
+    },
+    {
+      "t": 1755289040160,
+      "type": "PayoutFail",
+      "text": "Pending payout 200000 uosmo to osmo1sxj… (retry)",
+      "rid": "ye9kg9y3spid",
+      "meta": {
+        "to": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "net": 200000,
+        "error": "Broadcasting transaction failed with code 13 (codespace: sdk). Log: insufficient fees; got: 0uosmo which converts to 0uosmo. required: 2200uosmo: insufficient fee"
+      }
+    },
+    {
+      "t": 1755289040546,
+      "type": "Round",
+      "text": "New round q5d0zd • pair ATOM • duration 5m",
+      "rid": "q5d0zda6zjxz",
+      "meta": {
+        "pair": "ATOM",
+        "pool_id": "1",
+        "duration_min": 5
+      }
+    },
+    {
+      "t": 1755289040546,
+      "type": "Price",
+      "text": "Start price $4.4020 (pair ATOM / pool #1)",
+      "rid": "q5d0zda6zjxz",
+      "meta": null
+    },
+    {
+      "t": 1755290793943,
+      "type": "Settled",
+      "text": "Settled q5d0zd • pair ATOM • final $4.4000 • went DOWN",
+      "rid": "q5d0zda6zjxz",
+      "meta": null
+    },
+    {
+      "t": 1755290794828,
+      "type": "Round",
+      "text": "New round nsuttt • pair ATOM • duration 6m",
+      "rid": "nsutttwkt3w6",
+      "meta": {
+        "pair": "ATOM",
+        "pool_id": "1",
+        "duration_min": 6
+      }
+    },
+    {
+      "t": 1755290794828,
+      "type": "Price",
+      "text": "Start price $4.4010 (pair ATOM / pool #1)",
+      "rid": "nsutttwkt3w6",
+      "meta": null
+    },
+    {
+      "t": 1755291950680,
+      "type": "Settled",
+      "text": "Settled nsuttt • pair ATOM • final $4.4260 • went UP",
+      "rid": "nsutttwkt3w6",
+      "meta": null
+    },
+    {
+      "t": 1755291950832,
+      "type": "Round",
+      "text": "New round zkolzo • pair OSMO • duration 2m",
+      "rid": "zkolzoiw693h",
+      "meta": {
+        "pair": "OSMO",
+        "pool_id": "4",
+        "duration_min": 2
+      }
+    },
+    {
+      "t": 1755291950832,
+      "type": "Price",
+      "text": "Start price $0.1732 (pair OSMO / pool #4)",
+      "rid": "zkolzoiw693h",
+      "meta": null
+    },
+    {
+      "t": 1755292071101,
+      "type": "Settled",
+      "text": "Settled zkolzo • pair OSMO • final $4.4200 • went UP",
+      "rid": "zkolzoiw693h",
+      "meta": null
+    },
+    {
+      "t": 1755292071241,
+      "type": "Round",
+      "text": "New round sq167y • pair BTC • duration 2m",
+      "rid": "sq167ydf7ihe",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 2
+      }
+    },
+    {
+      "t": 1755292071241,
+      "type": "Price",
+      "text": "Start price $117211.4800 (pair BTC / pool #2)",
+      "rid": "sq167ydf7ihe",
+      "meta": null
+    },
+    {
+      "t": 1755292191512,
+      "type": "Settled",
+      "text": "Settled sq167y • pair BTC • final $117190.0000 • went DOWN",
+      "rid": "sq167ydf7ihe",
+      "meta": null
+    },
+    {
+      "t": 1755292191648,
+      "type": "Round",
+      "text": "New round hly2pt • pair BTC • duration 4m",
+      "rid": "hly2ptgltwvk",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 4
+      }
+    },
+    {
+      "t": 1755292191648,
+      "type": "Price",
+      "text": "Start price $117190.0000 (pair BTC / pool #2)",
+      "rid": "hly2ptgltwvk",
+      "meta": null
+    },
+    {
+      "t": 1755292440030,
+      "type": "Settled",
+      "text": "Settled hly2pt • pair BTC • final $117134.0600 • went DOWN",
+      "rid": "hly2ptgltwvk",
+      "meta": null
+    },
+    {
+      "t": 1755292440180,
+      "type": "Round",
+      "text": "New round 8vwi4o • pair ETH • duration 5m",
+      "rid": "8vwi4ovnr4ky",
+      "meta": {
+        "pair": "ETH",
+        "pool_id": "3",
+        "duration_min": 5
+      }
+    },
+    {
+      "t": 1755292440180,
+      "type": "Price",
+      "text": "Start price $4407.1900 (pair ETH / pool #3)",
+      "rid": "8vwi4ovnr4ky",
+      "meta": null
+    },
+    {
+      "t": 1755293729523,
+      "type": "Settled",
+      "text": "Settled 8vwi4o • pair ETH • final $4411.3800 • went UP",
+      "rid": "8vwi4ovnr4ky",
+      "meta": null
+    },
+    {
+      "t": 1755293729676,
+      "type": "Round",
+      "text": "New round obe35z • pair OSMO • duration 6m",
+      "rid": "obe35zebczl7",
+      "meta": {
+        "pair": "OSMO",
+        "pool_id": "4",
+        "duration_min": 6
+      }
+    },
+    {
+      "t": 1755293729676,
+      "type": "Price",
+      "text": "Start price $0.1732 (pair OSMO / pool #4)",
+      "rid": "obe35zebczl7",
+      "meta": null
+    },
+    {
+      "t": 1755294905802,
+      "type": "Settled",
+      "text": "Settled obe35z • pair OSMO • final $0.1732 • went UP",
+      "rid": "obe35zebczl7",
+      "meta": null
+    },
+    {
+      "t": 1755294906450,
+      "type": "Round",
+      "text": "New round tpwyq4 • pair ETH • duration 3m",
+      "rid": "tpwyq4ytzhqm",
+      "meta": {
+        "pair": "ETH",
+        "pool_id": "3",
+        "duration_min": 3
+      }
+    },
+    {
+      "t": 1755294906450,
+      "type": "Price",
+      "text": "Start price $4420.0000 (pair ETH / pool #3)",
+      "rid": "tpwyq4ytzhqm",
+      "meta": null
+    },
+    {
+      "t": 1755296016358,
+      "type": "Settled",
+      "text": "Settled tpwyq4 • pair ETH • final $4415.1200 • went DOWN",
+      "rid": "tpwyq4ytzhqm",
+      "meta": null
+    },
+    {
+      "t": 1755296016494,
+      "type": "Round",
+      "text": "New round mk16lv • pair BTC • duration 4m",
+      "rid": "mk16lv6ign93",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 4
+      }
+    },
+    {
+      "t": 1755296016494,
+      "type": "Price",
+      "text": "Start price $117320.0100 (pair BTC / pool #2)",
+      "rid": "mk16lv6ign93",
+      "meta": null
+    },
+    {
+      "t": 1755296257456,
+      "type": "Settled",
+      "text": "Settled mk16lv • pair BTC • final $117343.9900 • went UP",
+      "rid": "mk16lv6ign93",
+      "meta": null
+    },
+    {
+      "t": 1755296257592,
+      "type": "Round",
+      "text": "New round r23yxb • pair BTC • duration 6m",
+      "rid": "r23yxbidugdp",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 6
+      }
+    },
+    {
+      "t": 1755296257592,
+      "type": "Price",
+      "text": "Start price $117343.9900 (pair BTC / pool #2)",
+      "rid": "r23yxbidugdp",
+      "meta": null
+    },
+    {
+      "t": 1755301240009,
+      "type": "Settled",
+      "text": "Settled r23yxb • pair BTC • final $117208.0000 • went DOWN",
+      "rid": "r23yxbidugdp",
+      "meta": null
+    },
+    {
+      "t": 1755301240033,
+      "type": "Round",
+      "text": "New round ff5yu6 • pair BTC • duration 8m",
+      "rid": "ff5yu6p021mk",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 8
+      }
+    },
+    {
+      "t": 1755301240033,
+      "type": "Price",
+      "text": "Start price $117208.0000 (pair BTC / pool #2)",
+      "rid": "ff5yu6p021mk",
+      "meta": null
+    },
+    {
+      "t": 1755301939729,
+      "type": "Settled",
+      "text": "Settled ff5yu6 • pair BTC • final $117204.6300 • went DOWN",
+      "rid": "ff5yu6p021mk",
+      "meta": null
+    },
+    {
+      "t": 1755301939750,
+      "type": "Round",
+      "text": "New round nkr7wm • pair OSMO • duration 9m",
+      "rid": "nkr7wmwwc1ci",
+      "meta": {
+        "pair": "OSMO",
+        "pool_id": "4",
+        "duration_min": 9
+      }
+    },
+    {
+      "t": 1755301939750,
+      "type": "Price",
+      "text": "Start price $0.1738 (pair OSMO / pool #4)",
+      "rid": "nkr7wmwwc1ci",
+      "meta": null
+    },
+    {
+      "t": 1755302225901,
+      "type": "Bet",
+      "text": "Bet attached 0.100 OSMO by osmo1sxj…zgzvjy",
+      "rid": "nkr7wmwwc1ci",
+      "meta": {
+        "stake_uosmo": 100000,
+        "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "txhash": "156E50B046D57090D86115E2FCFFCDB11E0E8D56CFCD9E5C8D23DA5EEC294AFD"
+      }
+    },
+    {
+      "t": 1755302235449,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (nkr7wm)",
+      "rid": "nkr7wmwwc1ci",
+      "meta": null
+    },
+    {
+      "t": 1755303544281,
+      "type": "Settled",
+      "text": "Settled nkr7wm • pair OSMO • final $0.1743 • went UP",
+      "rid": "nkr7wmwwc1ci",
+      "meta": null
+    },
+    {
+      "t": 1755303544304,
+      "type": "Round",
+      "text": "New round t0oipu • pair ETH • duration 6m",
+      "rid": "t0oipun1fcit",
+      "meta": {
+        "pair": "ETH",
+        "pool_id": "3",
+        "duration_min": 6
+      }
+    },
+    {
+      "t": 1755303544304,
+      "type": "Price",
+      "text": "Start price $4448.3800 (pair ETH / pool #3)",
+      "rid": "t0oipun1fcit",
+      "meta": null
+    },
+    {
+      "t": 1755304017994,
+      "type": "Settled",
+      "text": "Settled t0oipu • pair ETH • final $4460.6700 • went UP",
+      "rid": "t0oipun1fcit",
+      "meta": null
+    },
+    {
+      "t": 1755304018009,
+      "type": "Round",
+      "text": "New round 0c6wmg • pair ETH • duration 2m",
+      "rid": "0c6wmg7kpvdd",
+      "meta": {
+        "pair": "ETH",
+        "pool_id": "3",
+        "duration_min": 2
+      }
+    },
+    {
+      "t": 1755304018009,
+      "type": "Price",
+      "text": "Start price $4460.6700 (pair ETH / pool #3)",
+      "rid": "0c6wmg7kpvdd",
+      "meta": null
+    },
+    {
+      "t": 1755304117754,
+      "type": "Bet",
+      "text": "Bet attached 0.100 OSMO by osmo1sxj…zgzvjy",
+      "rid": "0c6wmg7kpvdd",
+      "meta": {
+        "stake_uosmo": 100000,
+        "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "txhash": "48C1320A55E55B41A015D086D290825ECE9CA19C3403C0714B524E6EC689D01D"
+      }
+    },
+    {
+      "t": 1755304123310,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (0c6wmg)",
+      "rid": "0c6wmg7kpvdd",
+      "meta": null
+    },
+    {
+      "t": 1755304138692,
+      "type": "Settled",
+      "text": "Settled 0c6wmg • pair ETH • final $4455.3200 • went DOWN",
+      "rid": "0c6wmg7kpvdd",
+      "meta": null
+    },
+    {
+      "t": 1755304138709,
+      "type": "Round",
+      "text": "New round cgdcnf • pair ATOM • duration 2m",
+      "rid": "cgdcnftsjyag",
+      "meta": {
+        "pair": "ATOM",
+        "pool_id": "1",
+        "duration_min": 2
+      }
+    },
+    {
+      "t": 1755304138709,
+      "type": "Price",
+      "text": "Start price $4.4580 (pair ATOM / pool #1)",
+      "rid": "cgdcnftsjyag",
+      "meta": null
+    },
+    {
+      "t": 1755304165281,
+      "type": "Bet",
+      "text": "Bet attached 0.100 OSMO by osmo1sxj…zgzvjy",
+      "rid": "cgdcnftsjyag",
+      "meta": {
+        "stake_uosmo": 100000,
+        "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "txhash": "C518366F9CF57418C8E6F3C2BA5028DCB8D41471E7196C72CDEA410CF1E45483"
+      }
+    },
+    {
+      "t": 1755304168976,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (cgdcnf)",
+      "rid": "cgdcnftsjyag",
+      "meta": null
+    },
+    {
+      "t": 1755304259913,
+      "type": "Settled",
+      "text": "Settled cgdcnf • pair ATOM • final $4.4580 • went FLAT",
+      "rid": "cgdcnftsjyag",
+      "meta": null
+    },
+    {
+      "t": 1755304259932,
+      "type": "Round",
+      "text": "New round epw1o2 • pair BTC • duration 8m",
+      "rid": "epw1o2wavy49",
+      "meta": {
+        "pair": "BTC",
+        "pool_id": "2",
+        "duration_min": 8
+      }
+    },
+    {
+      "t": 1755304259932,
+      "type": "Price",
+      "text": "Start price $117517.9800 (pair BTC / pool #2)",
+      "rid": "epw1o2wavy49",
+      "meta": null
+    },
+    {
+      "t": 1755304303350,
+      "type": "Bet",
+      "text": "Bet attached 0.100 OSMO by osmo1sxj…zgzvjy",
+      "rid": "epw1o2wavy49",
+      "meta": {
+        "stake_uosmo": 100000,
+        "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "txhash": "35F82923DAB22152C8C434AC354F7E147318F2C5D6957E3C36C43D7B0F2A1B33"
+      }
+    },
+    {
+      "t": 1755304304517,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → DOWN (epw1o2)",
+      "rid": "epw1o2wavy49",
+      "meta": null
+    },
+    {
+      "t": 1755306437536,
+      "type": "Settled",
+      "text": "Settled epw1o2 • pair BTC • final $117638.8700 • went UP",
+      "rid": "epw1o2wavy49",
+      "meta": null
+    },
+    {
+      "t": 1755306437557,
+      "type": "Round",
+      "text": "New round 4s5w2v • pair ETH • duration 6m",
+      "rid": "4s5w2vqdlchg",
+      "meta": {
+        "pair": "ETH",
+        "pool_id": "3",
+        "duration_min": 6
+      }
+    },
+    {
+      "t": 1755306437557,
+      "type": "Price",
+      "text": "Start price $4460.5000 (pair ETH / pool #3)",
+      "rid": "4s5w2vqdlchg",
+      "meta": null
+    },
+    {
+      "t": 1755306521512,
+      "type": "Bet",
+      "text": "Bet attached 0.100 OSMO by osmo1sxj…zgzvjy",
+      "rid": "4s5w2vqdlchg",
+      "meta": {
+        "stake_uosmo": 100000,
+        "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+        "txhash": "5B23B84F7ECDC952C920B07ED752BF8FFFA0F07F5E42512EA8DD75B445F9151A"
+      }
+    },
+    {
+      "t": 1755306526256,
+      "type": "Direction",
+      "text": "Direction by \"osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy\" → UP (4s5w2v)",
+      "rid": "4s5w2vqdlchg",
+      "meta": null
+    }
+  ],
+  "tickets": [
+    {
+      "id": "q4jnm8df3e42",
+      "round_id": "nkr7wmwwc1ci",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash": "156E50B046D57090D86115E2FCFFCDB11E0E8D56CFCD9E5C8D23DA5EEC294AFD",
+      "t": 1755302225901
+    },
+    {
+      "id": "dds4get64wij",
+      "round_id": "0c6wmg7kpvdd",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash": "48C1320A55E55B41A015D086D290825ECE9CA19C3403C0714B524E6EC689D01D",
+      "t": 1755304117754
+    },
+    {
+      "id": "sflwnu26gjgv",
+      "round_id": "cgdcnftsjyag",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash": "C518366F9CF57418C8E6F3C2BA5028DCB8D41471E7196C72CDEA410CF1E45483",
+      "t": 1755304165281
+    },
+    {
+      "id": "0yo8zs0f18ix",
+      "round_id": "epw1o2wavy49",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash": "35F82923DAB22152C8C434AC354F7E147318F2C5D6957E3C36C43D7B0F2A1B33",
+      "t": 1755304303350
+    },
+    {
+      "id": "ew02h3kfsfdc",
+      "round_id": "4s5w2vqdlchg",
+      "player_id": "hwnd2x9bfffr",
+      "from": "osmo1sxj8p7ye2t6ytzkq04v4x8veqajg3dv6zgzvjy",
+      "stake_uosmo": 100000,
+      "txhash": "5B23B84F7ECDC952C920B07ED752BF8FFFA0F07F5E42512EA8DD75B445F9151A",
+      "t": 1755306521512
+    }
+  ]
+}
