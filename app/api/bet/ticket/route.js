@@ -4,6 +4,8 @@ import { createBetTicket, upsertPlayer, read } from "@/lib/db";
 import { verifyBetDeposit } from "@/lib/txverify";
 import { BET_MIN_UOSMO, BET_MAX_UOSMO } from "@/lib/config";
 
+export const runtime = "nodejs";
+
 export async function POST(req) {
   try {
     const { roundId, username, from, txhash } = await req.json();
@@ -11,7 +13,6 @@ export async function POST(req) {
       return NextResponse.json({ error: "Missing params" }, { status: 400 });
     }
 
-    // Cek apakah sudah pernah attach (by round + from) -> 409
     const db = await read();
     const already =
       (db.tickets || []).find(t => t.round_id === roundId && (t.from || "").toLowerCase() === from.toLowerCase()) ||
