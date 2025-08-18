@@ -1,7 +1,11 @@
 # Mad Pool Predictor
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/af35bf0a-235e-48f4-b92f-0218f5df9f67" />
 
 A tiny price–prediction game for crypto pairs with on‑chain style payouts on **Osmosis Testnet**.  
 Rounds rotate through a configurable list of symbols. Live prices come from **Binance** (primary) with **CoinGecko** as fallback. Players attach a small OSMO stake, submit *directional* (UP/DOWN/FLAT) and/or *value* predictions, and scores are settled automatically.
+
+## Screenshoot
+<img width="809" height="637" alt="image" src="https://github.com/user-attachments/assets/1120fa16-389b-4eaa-b703-cc17b7b1cd1c" />
 
 ---
 
