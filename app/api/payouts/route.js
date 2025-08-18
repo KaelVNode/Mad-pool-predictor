@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { read } from "@/lib/db";
 
-export const runtime = "nodejs";
+export const runtime = "nodejs";          // ⬅️ tambahkan baris ini
+export const dynamic = "force-dynamic";   // (opsional) tidak di-cache
 
 export async function GET() {
   try {
