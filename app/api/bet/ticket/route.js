@@ -4,7 +4,8 @@ import { createBetTicket, upsertPlayer, read } from "@/lib/db";
 import { verifyBetDeposit } from "@/lib/txverify";
 import { BET_MIN_UOSMO, BET_MAX_UOSMO } from "@/lib/config";
 
-export const runtime = "nodejs";
+export const runtime = "nodejs";          // ⬅️ tambahkan baris ini
+export const dynamic = "force-dynamic";   // (opsional) tidak di-cache
 
 export async function POST(req) {
   try {
