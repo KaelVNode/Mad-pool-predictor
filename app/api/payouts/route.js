@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { read } from "@/lib/db";
 
+export const runtime = "nodejs";
+
 export async function GET() {
   try {
     const db = await read();
