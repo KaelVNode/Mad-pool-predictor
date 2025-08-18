@@ -35,7 +35,8 @@ Rounds rotate through a configurable list of symbols. Live prices come from **Bi
 
 ## Video demo
 
-https://github.com/user-attachments/assets/d7a498f8-4d97-44ed-999e-41402b3adcc2
+https://github.com/user-attachments/assets/a1f93f55-c274-4cef-b523-ab06999690e4
+
 
 ---
 
