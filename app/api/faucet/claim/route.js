@@ -7,8 +7,8 @@ import { sendFromTreasury } from "@/lib/pay";
 const IP_BUCKET = new Map(); 
 const MIN_GAP_MS = 3000;
 
-export const dynamic = "force-dynamic";
-export const runtime = "nodejs";
+export const runtime = "nodejs";          // ⬅️ tambahkan baris ini
+export const dynamic = "force-dynamic";   // (opsional) tidak di-cache
 
 function clientIp(req) {
   return req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "0.0.0.0";
