@@ -230,4 +230,4 @@ npm run dev
 
 ## License
 
-MIT — see `LICENSE` (or choose your preferred license).
+MIT License © 2025 [Saandy](https://github.com/KaelVNode/netrum-monitor)  
