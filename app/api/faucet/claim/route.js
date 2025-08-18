@@ -3,11 +3,12 @@ import { ENABLE_FAUCET, FAUCET_AMOUNT_UOSMO, FAUCET_COOLDOWN_MS } from "@/lib/co
 import { getLastFaucetClaim, recordFaucetClaim } from "@/lib/db";
 import { sendFromTreasury } from "@/lib/pay";
 
-// simple in-memory rate limit per-IP (dev only)
-const IP_BUCKET = new Map(); // ip -> ts
+
+const IP_BUCKET = new Map(); 
 const MIN_GAP_MS = 3000;
 
 export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 function clientIp(req) {
   return req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "0.0.0.0";
