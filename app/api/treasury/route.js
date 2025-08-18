@@ -3,6 +3,9 @@ import { NextResponse } from "next/server";
 import { TREASURY_ADDR } from "@/lib/config";
 import { getTreasuryAddress } from "@/lib/pay";
 
+export const runtime = "nodejs";          // ⬅️ tambahkan baris ini
+export const dynamic = "force-dynamic";   // (opsional) tidak di-cache
+
 export async function GET() {
   try {
     const addr = TREASURY_ADDR || await getTreasuryAddress();
