@@ -1,5 +1,30 @@
-# Mad Pool Predictor
 <img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/af35bf0a-235e-48f4-b92f-0218f5df9f67" />
+<p align="center">
+  <a href="https://github.com/KaelVNode/Mad-pool-predictor/stargazers">
+    <img src="https://img.shields.io/github/stars/KaelVNode/Mad-pool-predictor?style=flat-square" alt="Stars">
+  </a>
+  <a href="https://github.com/KaelVNode/Mad-pool-predictor/forks">
+    <img src="https://img.shields.io/github/forks/KaelVNode/Mad-pool-predictor?style=flat-square" alt="Forks">
+  </a>
+  <a href="https://github.com/KaelVNode/Mad-pool-predictor/issues">
+    <img src="https://img.shields.io/github/issues/KaelVNode/Mad-pool-predictor?style=flat-square" alt="Open Issues">
+  </a>
+  <a href="https://github.com/KaelVNode/Mad-pool-predictor/pulls">
+    <img src="https://img.shields.io/github/issues-pr/KaelVNode/Mad-pool-predictor?style=flat-square" alt="Open PRs">
+  </a>
+  <img src="https://img.shields.io/github/last-commit/KaelVNode/Mad-pool-predictor?style=flat-square" alt="Last Commit">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/KaelVNode/Mad-pool-predictor?style=flat-square" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/Next.js-14%2B-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Node.js-%E2%89%A5%2018-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Osmosis-Testnet-7C3AED?style=flat-square" alt="Osmosis Testnet">
+  <img src="https://img.shields.io/badge/Price%20Source-Binance%20%E2%86%92%20CoinGecko-0EA5E9?style=flat-square" alt="Price source">
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/KaelVNode/Mad-pool-predictor">
+    <img src="https://img.shields.io/badge/deploy%20to-Vercel-000000?style=flat-square&logo=vercel" alt="Deploy to Vercel">
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs welcome">
+</p>
 
 A tiny price–prediction game for crypto pairs with on‑chain style payouts on **Osmosis Testnet**.  
 Rounds rotate through a configurable list of symbols. Live prices come from **Binance** (primary) with **CoinGecko** as fallback. Players attach a small OSMO stake, submit *directional* (UP/DOWN/FLAT) and/or *value* predictions, and scores are settled automatically.
